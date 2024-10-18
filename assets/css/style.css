@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    vertical-align: bottom;
+}
+#spothiphop{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#slider{
+    width: 300px;
+}
+#navigation{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+#navigation i{
+    color: rgb(8, 8, 143);
+    font-size: 60px;
+    transition: all 0.3s;
+}
+#navigation i:hover{
+    color: blue;
+    transform: translate(5px,5px);
+}
+#slider{
+    position: relative;
+    border: 3px red solid;
+    overflow: hidden;
+}
+#coverMove{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+#timeline{
+    width: 100%;
+    height: 20px;
+    background-color: #bebebe;
+}
+#innerTimeline{
+    width: 0%;
+    height: 20px;
+    background-color: #5b5b5b;
+}
+#timeFrame{
+    width: 300px;
+}
+.imgItem{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.divItem{
+    display: flex;
+    align-items: center;
+}
+.divItem span,.divItem i{
+    margin: 0 5px;
+    font-size: 1.5rem;
+}
